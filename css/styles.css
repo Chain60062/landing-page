@@ -1,0 +1,62 @@
+* {
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000500;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  height: 60px;
+  background-color: white;
+}
+.navbar a {
+  color: #000500;
+}
+.typewrite.title {
+  font-size: 48px;
+  margin: 10rem 0 10rem 0;
+}
+.terminal {
+  margin: auto;
+  background-color: rgb(20, 20, 20);
+  height: 50vh;
+  width: 50vw;
+  border-radius: 18px;
+}
+.terminal-header {
+  display: flex;
+  align-items: center;
+  background-color: rgb(10, 10, 10);
+  height: 10%;
+  border-radius: 18px 18px 0 0;
+}
+.terminal-button {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: rgb(40, 40, 40);
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+}
+.terminal-body {
+  text-align: left;
+  font-size: 20px;
+}
+
+.page-footer {
+  height: 40vh;
+  background-color: white;
+}
+
+#output {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  height: 200px; /* Adjust the height as needed */
+  /* overflow-y: scroll; */
+}
